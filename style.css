@@ -1,0 +1,58 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 243, 234)
+}
+.rooms {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    
+    text-align: center;
+    padding: 30px;
+}
+
+h2{
+    font-size: 35px;
+    margin: 0;
+}
+
+.hotels{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+margin: 100px auto;
+padding: 20px;
+border: 2px solid;
+
+
+}
+img{
+  width: 100%;
+ 
+}
+.img{
+    margin: 20px;
+}
+.address{
+    margin: 10px auto;
+}
+
+a.btn-see{
+   background-color: #0d6dfe;
+   color: white;
+   padding: 6px 12px;
+ text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
